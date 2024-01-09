@@ -14,7 +14,7 @@ namespace FashionApp1
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();
-            MainPage = new AppShell();
+            MainPage = new NavigationPage(new AppShell());
         }
 
         protected override void OnStart ()

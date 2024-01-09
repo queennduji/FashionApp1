@@ -10,4 +10,28 @@
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />  
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="ViewModels\Home\" />
+    <None Remove="ViewModels\Shop\" />
+    <None Remove="ViewModels\Search\" />
+    <None Remove="ViewModels\Account\" />
+    <None Remove="ViewModels\Bag\" />
+    <None Remove="Views\Home\" />
+    <None Remove="Views\Account\" />
+    <None Remove="Views\Bag\" />
+    <None Remove="Views\Shop\" />
+    <None Remove="Views\Search\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModels\Home\" />
+    <Folder Include="ViewModels\Shop\" />
+    <Folder Include="ViewModels\Search\" />
+    <Folder Include="ViewModels\Account\" />
+    <Folder Include="ViewModels\Bag\" />
+    <Folder Include="Views\Home\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\Bag\" />
+    <Folder Include="Views\Shop\" />
+    <Folder Include="Views\Search\" />
+  </ItemGroup>
 </Project>
